@@ -1,7 +1,7 @@
 def Find_Index(a,P):
     try:
     	pos=a.index(P)
-    	return
+    	return pos
     except Exception as e:
     	a.append(P)
     	a.sort()

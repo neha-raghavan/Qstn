@@ -12,7 +12,7 @@ n = int(input("Enter number of elements : "))
 print("Enter elements")
 for i in range(0, n):
     ele = int(input())
-    a.append(ele) # adding the element
+    a.append(ele)
 print(a)
 P=int(input("Enter the element to find : "))
 print("Index : ",Find_Index(a,P))
